@@ -21,4 +21,7 @@ urlpatterns = [
 
     # Register user
     path('register/', views.register, name='register'),
+
+    # Edit user profile
+    path('edit/', views.edit, name='edit'),
 ]
